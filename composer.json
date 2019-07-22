@@ -1,11 +1,8 @@
 {
-    "name": "mileschou/composer-template",
-    "description": "The template for create Composer project",
+    "name": "mileschou/line-sdk",
+    "description": "The SDK of Line written by PHP",
     "type": "library",
     "license": "MIT",
-    "keywords": [
-        "template"
-    ],
     "authors": [
         {
             "name": "MilesChou",
@@ -13,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^6 | ^7 | ^8",
@@ -23,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MilesChou\\Template\\": "src"
+            "MilesChou\\Line\\": "src"
         }
     },
     "autoload-dev": {
